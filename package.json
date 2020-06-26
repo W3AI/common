@@ -1,7 +1,7 @@
 {
   "name": "@w3ai/common",
-  "version": "1.0.1",
-  "description": "",
+  "version": "0.0.1",
+  "description": "common ai bazar library",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": [
@@ -9,10 +9,18 @@
   ],
   "scripts": {
     "clean": "del ./build/*",
-    "build": "npm run clean && tsc"
+    "build": "npm run clean && tsc",
+    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ai",
+    "bazar",
+    "smart",
+    "market",
+    "social",
+    "monetizer"
+  ],
+  "author": "stefian",
   "license": "ISC",
   "devDependencies": {
     "del-cli": "^3.0.1",
