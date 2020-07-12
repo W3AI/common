@@ -1,4 +1,4 @@
-// Export errors and middlewares initially in market auth
+// Export errors, middlewares and events
 export * from "./errors/bad-request-error";
 export * from "./errors/custom-error";
 export * from "./errors/database-connection-error";
