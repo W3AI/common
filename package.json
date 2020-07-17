@@ -14,7 +14,8 @@
   "scripts": {
     "clean": "del ./build/*",
     "build": "npm run clean && tsc",
-    "pub": "git add . && git commit -m \"pre alpha updates\" && git push && npm version patch && npm run build && npm publish"
+    "pub-old": "git add . && git commit -m \"pre alpha updates\" && git push && npm version patch && npm run build && npm publish",
+    "pub": "gx && npm version patch && npm run build && npm publish"
   },
   "keywords": [
     "ai",
